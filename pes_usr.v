@@ -23,3 +23,4 @@ module pes_usr(in,cnt,clk,rst,q);
           endcase
         end
     end
+endmodule
