@@ -203,4 +203,12 @@ Now,invoke yosys
 ![Screenshot from 2023-10-25 22-01-00](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/e4039618-159b-4c7f-9a38-41c9def3ba7c)
 
 
+**comparing the results**
+
+Before GLS                                                                 After GLS
+![Screenshot from 2023-10-25 22-06-40](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/c26b8275-bd66-44cd-bfba-18c76fdeab0f)
+
+
+
+
 
