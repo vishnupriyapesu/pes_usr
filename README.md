@@ -198,17 +198,18 @@ Now,invoke yosys
 
 
 
-
-
-![Screenshot from 2023-10-25 22-01-00](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/e4039618-159b-4c7f-9a38-41c9def3ba7c)
+![Screenshot from 2023-10-25 22-17-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/c83c135d-afbc-419d-b34c-d96716136ba7)
 
 
 **comparing the results**
 
-    > Before GLS                                                        > After GLS
-![Screenshot from 2023-10-25 22-06-40](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/c26b8275-bd66-44cd-bfba-18c76fdeab0f)
+**Before GLS**
 
 
+
+**After GLS**
+
+![Screenshot from 2023-10-25 22-17-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b3c24de2-4990-40c6-99de-1f765dd28fd2)
 
 
 
