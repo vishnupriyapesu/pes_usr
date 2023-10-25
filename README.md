@@ -194,8 +194,10 @@ Now,invoke yosys
 
 > ./a.out
 
+
 > gtkwave pes_usr_tb.vcd
 
+![Screenshot from 2023-10-25 22-32-16](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/f8128d50-b704-4003-aa88-c028336949f1)
 
 
 ![Screenshot from 2023-10-25 22-17-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/c83c135d-afbc-419d-b34c-d96716136ba7)
