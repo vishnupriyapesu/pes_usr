@@ -45,6 +45,12 @@ The register operations performed for the various inputs of select lines are as 
 ![Screenshot from 2023-10-25 21-01-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b07b4ba3-b4ae-4f17-944e-c05d4510e23b)
 
 
+**RTL schematic using Quartus**
+
+![RTL](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/de3c0a2d-9453-4989-a617-278298241f1b)
+
+
+
 **Applications**
 
 
