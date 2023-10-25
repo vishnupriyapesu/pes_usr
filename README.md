@@ -205,7 +205,10 @@ Now,invoke yosys
 
 **Before GLS**
 
+![Screenshot from 2023-10-25 21-24-57](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/8518b4fa-2bd9-4b76-88ce-78b59c77ab96)
 
+
+![Screenshot from 2023-10-25 21-23-58](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/e026e405-0d0b-45c6-bbc0-2b273e8e4dfe)
 
 **After GLS**
 
