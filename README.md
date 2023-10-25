@@ -42,3 +42,4 @@ Control Inputs: Universal shift registers require control signals to specify the
  - data manipulation in microprocessors
  - serial-to-parallel and parallel-to-serial conversion, encryption algorithms
  - image processing.
+ - They can also be used for various bitwise operations like AND, OR, XOR, and NOT. For instance, by using the shift and control operations, you can perform rotations or circular shifts on data.
