@@ -205,7 +205,7 @@ Now,invoke yosys
 
 **comparing the results**
 
-**Before GLS**                                                             **After GLS**
+ > Before GLS                                                        > After GLS
 ![Screenshot from 2023-10-25 22-06-40](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/c26b8275-bd66-44cd-bfba-18c76fdeab0f)
 
 
