@@ -157,18 +157,49 @@ Now,invoke yosys
 
 > read_verilog pes_usr.v
 
+![Screenshot from 2023-10-25 21-37-28](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/545a7335-36a8-4757-97eb-6c6862e3e98e)
+
+
 > synth -top pes_usr
+
+![Screenshot from 2023-10-25 21-38-22](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/33d3d7a0-a0ff-4a81-a70a-bcd9c9710ef4)
+
 
 
 > dfflibmap -liberty /home/vishnupriya/vsd/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
-> abc -liberty /path to .lib file
+> abc -liberty //home/vishnupriya/vsd/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+![Screenshot from 2023-10-25 21-48-52](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/fcf1537d-5787-4b9b-a58a-851f34d32b3c)
+
 
 > show
 
+
+![Screenshot from 2023-10-25 21-49-51](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/35d6ba48-5159-4a47-b542-be5e8bb434b2)
+
+
+
 > write_verilog -noattr pes_usr_netlist.v
 
+
+
+![Screenshot from 2023-10-25 21-51-31](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/8645aa6d-22dd-4121-80ef-63b01397ffc7)
+
 > exit
+
+**Now perform GLS by the netlist generated from the yosys.**
+
+> iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_usr_netlist.v pes_usr_tb.v
+
+> ./a.out
+
+> gtkwave pes_usr_tb.vcd
+
+
+
+
+![Screenshot from 2023-10-25 21-56-03](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/f425e205-3b03-4b3b-a9bb-927582c23705)
 
 
 
