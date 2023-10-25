@@ -4,6 +4,7 @@
 1) synthesis and GLS
 2) Physical design
 3) GDS tapeout
+   
 
 
 **universal shift register**
