@@ -1,6 +1,6 @@
 # pes_usr
 # Universal Shift Register (usr) 
-**in this repository we are going to see the following three topics**
+**In this repository we are going to see the following three topics**
 1) synthesis and GLS
 2) Physical design
 3) GDS tapeout
