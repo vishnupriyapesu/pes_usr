@@ -10,6 +10,9 @@
 **universal shift register**
 
 
+![Screenshot from 2023-10-25 21-04-34](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b23064af-10c9-4019-ac86-86af213ab946)
+
+
 - A universal shift register is a digital circuit that can perform a variety of shift and data manipulation operations. 
 - It is a versatile component used in digital systems and microprocessors to transfer, store, and manipulate data in various ways. 
 - Universal shift registers are particularly useful for tasks like serial-to-parallel conversion, parallel-to-serial conversion, data rotation, and various bitwise operations.
@@ -35,6 +38,13 @@ Bidirectional Shifting: Most universal shift registers can shift data in both di
 Control Inputs: Universal shift registers require control signals to specify the operation they should perform. These control inputs determine whether to load, shift, parallel-load, serial-load, and the direction of shifting.
 
 
+The working of the Universal shift register depends on the inputs given to the select lines.
+
+The register operations performed for the various inputs of select lines are as follows:
+
+![Screenshot from 2023-10-25 21-01-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b07b4ba3-b4ae-4f17-944e-c05d4510e23b)
+
+
 **Applications**
 
 
@@ -43,3 +53,72 @@ Control Inputs: Universal shift registers require control signals to specify the
  - serial-to-parallel and parallel-to-serial conversion, encryption algorithms
  - image processing.
  - They can also be used for various bitwise operations like AND, OR, XOR, and NOT. For instance, by using the shift and control operations, you can perform rotations or circular shifts on data.
+
+
+**Design code for Unoversal shift register**
+
+<br />
+
+         module pes_usr(in,cnt,clk,rst,q);
+           input clk,rst;
+           input [3:0]in;
+           input [1:0]cnt;
+           output reg [3:0]q;
+           
+           always @(posedge clk,posedge rst)
+             begin
+               if(rst)
+                 q<=0;
+               else
+                 begin
+                   case(cnt)
+                     2'b00: q<=q;
+                       
+                     2'b01: q<={1'b0,q[3:1]};
+                       
+                     2'b10: q<={q[2:0],1'b0};
+                       
+                     2'b11: q<= in;
+                       
+                       default: q<=0;
+                   endcase
+                 end
+             end
+         endmodule
+
+
+**Test bench for Universal shift register**
+
+<br />
+
+         module pes_usr_tb();
+           reg clk,rst;
+           reg [3:0] in;
+           reg [1:0] cnt;
+           wire [3:0] q;
+           
+           pes_usr dut(in,cnt,clk,rst,q);
+           initial 
+             begin
+               clk = 1;
+               forever #5 clk = ~clk;
+             end
+           
+           initial 
+             begin
+               $dumpfile("pes_usr_tb.vcd");
+               $dumpvars(0,pes_usr_tb);
+               #200 $finish;
+             end
+           
+           initial
+             begin
+               rst=1;
+               #10 rst=0; cnt=2'b11; in=4'b1100;
+               #10 cnt=2'b00;
+               #10 cnt=2'b01;
+               #30 cnt=2'b11; in=4'b1100;
+               #10 cnt=2'b10;
+               #30 rst=1;
+             end
+         endmodule
