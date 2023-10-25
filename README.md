@@ -128,3 +128,47 @@ The register operations performed for the various inputs of select lines are as 
                #30 rst=1;
              end
          endmodule
+
+
+# Synthesis and GLS
+
+
+here we will use "iverilog' and "Yosys" to obtain result
+
+
+>  cd  /vsd/vlsi/sky130RTLDesignAndSynthesisWorkshop/verilog_files
+
+> iverilog pes_usr.v pes_usr_tb.v -o pes_usr.out
+
+> ./pes_usr.out
+
+> gtkwave pes_usr_tb.vcd
+
+
+![Screenshot from 2023-10-25 21-24-57](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/8518b4fa-2bd9-4b76-88ce-78b59c77ab96)
+
+
+![Screenshot from 2023-10-25 21-23-58](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/e026e405-0d0b-45c6-bbc0-2b273e8e4dfe)
+
+Now,invoke yosys
+
+> read_liberty -lib /home/vishnupriya/vsd/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+
+> read_verilog pes_usr.v
+
+> synth -top pes_usr
+
+
+> dfflibmap -liberty /home/vishnupriya/vsd/vlsi/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+> abc -liberty /path to .lib file
+
+> show
+
+> write_verilog -noattr pes_usr_netlist.v
+
+> exit
+
+
+
