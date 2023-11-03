@@ -238,12 +238,22 @@ Now,invoke yosys
 
 
 
-## flooeplan
+## floorplan
 
 - run_floorplan
 
 ![Screenshot from 2023-11-03 19-12-06](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/1e3c9351-8a8d-4796-82c3-b82131b440af)
 
-![Screenshot from 2023-11-03 19-14-24](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/bfd5cd19-2d1a-46f8-9a83-f1b74f1179c6)
+
+- to view design
+
+     magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_ripco.def &
+  
+![Screenshot from 2023-11-03 19-45-23](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/8dab8a13-845b-43f2-be3e-746e1e6fc7f2)
 
 ![Screenshot from 2023-11-03 19-14-28](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b61452de-07c3-487b-93c6-34d2d23bc6f0)
+
+
+![Screenshot from 2023-11-03 19-16-24](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/5ea6bd17-9512-4369-ad82-7f24dac27253)
+
+
