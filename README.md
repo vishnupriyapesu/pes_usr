@@ -287,7 +287,11 @@ Now,invoke yosys
 **To view design**
 
 - magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_usr.def &
-- 
+
+  
+![Screenshot from 2023-11-03 20-17-25](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/5a8d67f8-9eec-4074-8b4f-f60ded4089c1)
+
+
 ![Screenshot from 2023-11-03 20-07-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/bd0b41f3-c100-4425-b93c-1fc3a1118c1f)
 
 
@@ -296,5 +300,37 @@ Now,invoke yosys
 ![Screenshot from 2023-11-03 20-07-06](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/de16bac5-ef1b-46ff-b6ae-7d0450a1949b)
 
 
+**Report generated**
 
 
+
+![Screenshot from 2023-11-03 20-09-16](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/1eec7cc2-e5e3-41da-a310-2b8a214551aa)
+
+![Screenshot from 2023-11-03 20-09-50](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/17205cb9-dd56-4a7e-936f-868aa661a075)
+
+![Screenshot from 2023-11-03 20-10-24](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/a0775ce1-7076-4052-81e0-14a10e260bec)
+
+![Screenshot from 2023-11-03 20-10-47](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/ec936f53-75aa-4673-9b6f-8471d1a461e6)
+
+## Routing 
+
+- run_routing
+
+
+![Screenshot from 2023-11-03 20-13-23](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/35f62f24-61cd-4e2a-93c8-33383788385c)
+
+
+**To view design**
+
+-  magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_usr.def &
+
+
+![Screenshot from 2023-11-03 20-16-19](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/941e4011-ce94-4bae-b443-74eb9d496afd)
+
+![Screenshot from 2023-11-03 20-16-01](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/a13d58af-3483-4be1-8469-0044f32b3ae8)
+
+![Screenshot from 2023-11-03 20-18-18](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/3476997d-66ab-4e38-8c5a-07950704d2f0)
+
+![Screenshot from 2023-11-03 20-18-33](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/462a3fa5-d134-4e23-9f25-d19595542d29)
+
+![Screenshot from 2023-11-03 20-18-47](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b95342db-c3ef-4bdf-8c34-bc4145f45398)
