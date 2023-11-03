@@ -247,7 +247,7 @@ Now,invoke yosys
 
 - to view design
 
-     magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_ripco.def &
+     magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_usr.def &
   
 ![Screenshot from 2023-11-03 19-45-23](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/8dab8a13-845b-43f2-be3e-746e1e6fc7f2)
 
@@ -257,3 +257,15 @@ Now,invoke yosys
 ![Screenshot from 2023-11-03 19-16-24](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/5ea6bd17-9512-4369-ad82-7f24dac27253)
 
 
+## placement
+
+
+- run_placement
+
+![Screenshot from 2023-11-03 19-47-45](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/3bc9357d-1148-48de-a701-63b864ba5f49)
+
+
+
+- to view design
+
+- magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_usr.def &
