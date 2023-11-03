@@ -225,11 +225,25 @@ Now,invoke yosys
 ![Screenshot from 2023-11-03 16-20-09](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/1a75e761-25d5-4c98-9c03-652229fa850d)
 
 
+## synthesis
+
+- run_synthesis
+
+
+![Screenshot from 2023-11-03 19-07-26](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/5b5d7d5e-e1d6-4780-906a-822d7a6b0141)
 
 
 
+![Screenshot from 2023-11-03 19-10-31](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/7ba7bd29-c55a-4476-a9fd-e56b9d9df818)
 
 
 
+## flooeplan
 
+- run_floorplan
 
+![Screenshot from 2023-11-03 19-12-06](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/1e3c9351-8a8d-4796-82c3-b82131b440af)
+
+![Screenshot from 2023-11-03 19-14-24](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/bfd5cd19-2d1a-46f8-9a83-f1b74f1179c6)
+
+![Screenshot from 2023-11-03 19-14-28](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b61452de-07c3-487b-93c6-34d2d23bc6f0)
