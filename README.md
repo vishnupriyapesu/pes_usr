@@ -245,7 +245,7 @@ Now,invoke yosys
 ![Screenshot from 2023-11-03 19-12-06](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/1e3c9351-8a8d-4796-82c3-b82131b440af)
 
 
-- to view design
+**To view design**
 
      magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_usr.def &
   
@@ -265,7 +265,36 @@ Now,invoke yosys
 ![Screenshot from 2023-11-03 19-47-45](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/3bc9357d-1148-48de-a701-63b864ba5f49)
 
 
-
-- to view design
+**To view design**
 
 - magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_usr.def &
+
+
+![Screenshot from 2023-11-03 19-53-35](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/558ef475-97e0-417d-993e-fb1804363de0)
+
+
+![Screenshot from 2023-11-03 19-56-14](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/8c7ad1df-52e2-40bc-9d3e-a611e4886f30)
+
+
+## clock tree synthesis(CTS)
+
+
+- run_cts
+
+
+![Screenshot from 2023-11-03 19-59-47](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/692526b6-7e4f-445e-9aae-603beff10894)
+
+**To view design**
+
+- magic -T /home/vishnupriya/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_usr.def &
+- 
+![Screenshot from 2023-11-03 20-07-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/bd0b41f3-c100-4425-b93c-1fc3a1118c1f)
+
+
+![Screenshot from 2023-11-03 20-06-00](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/eb488772-e205-4e1a-b345-f0e73925858b)
+
+![Screenshot from 2023-11-03 20-07-06](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/de16bac5-ef1b-46ff-b6ae-7d0450a1949b)
+
+
+
+
