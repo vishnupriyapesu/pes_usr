@@ -214,5 +214,26 @@ Now,invoke yosys
 
 ![Screenshot from 2023-10-25 22-17-21](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b3c24de2-4990-40c6-99de-1f765dd28fd2)
 
+# Openlane flow
+
+- set up your design file
+
+
+- perp -design pes_usr
+
+
+![Screenshot from 2023-11-03 16-20-09](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/1a75e761-25d5-4c98-9c03-652229fa850d)
+
+
+- run_synthesis
+
+
+![Screenshot from 2023-11-03 16-24-14](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/968a47b5-44cf-4022-b0e4-cf519c1551f7)
+
+![Screenshot from 2023-11-03 16-24-38](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/04e0d112-9583-4fe1-896e-a5b64e4d025d)
+
+![Screenshot from 2023-11-03 16-25-31](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/68b6e16d-2be1-4d09-bd77-98a00d709301)
+
+
 
 
