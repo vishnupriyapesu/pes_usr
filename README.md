@@ -306,11 +306,8 @@ Now,invoke yosys
 
 ![Screenshot from 2023-11-03 20-09-16](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/1eec7cc2-e5e3-41da-a310-2b8a214551aa)
 
-![Screenshot from 2023-11-03 20-09-50](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/17205cb9-dd56-4a7e-936f-868aa661a075)
+![Screenshot from 2023-11-03 20-27-11](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/6ab85405-e0e9-43d8-8768-589d86865353)
 
-![Screenshot from 2023-11-03 20-10-24](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/a0775ce1-7076-4052-81e0-14a10e260bec)
-
-![Screenshot from 2023-11-03 20-10-47](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/ec936f53-75aa-4673-9b6f-8471d1a461e6)
 
 ## Routing 
 
@@ -334,3 +331,11 @@ Now,invoke yosys
 ![Screenshot from 2023-11-03 20-18-33](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/462a3fa5-d134-4e23-9f25-d19595542d29)
 
 ![Screenshot from 2023-11-03 20-18-47](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/b95342db-c3ef-4bdf-8c34-bc4145f45398)
+
+
+
+**Report**
+
+![Screenshot from 2023-11-03 20-30-06](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/c1d97d9f-f4a4-4c79-8791-57009579b443)
+
+
