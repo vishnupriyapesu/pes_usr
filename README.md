@@ -236,14 +236,6 @@ Now,invoke yosys
 
 
 
--run_placement
 
-
-
-
-![Screenshot from 2023-11-03 16-31-02](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/e05f1034-aef6-4680-a0f9-3bb0529bea20)
-
-
-![Screenshot from 2023-11-03 16-31-47](https://github.com/vishnupriyapesu/pes_usr/assets/142419649/e90ab87c-e4d5-4f18-859c-29ddad707189)
 
 
